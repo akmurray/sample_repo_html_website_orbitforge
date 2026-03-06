@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbitforge | Dashboard</title>
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="dashboard">
+  <header class="site-header" data-nav-root></header>
+
+  <main class="container">
+    <section class="panel">
+      <h1>Agent Dashboard</h1>
+      <p>Simple metrics and events for test workflows.</p>
+      <div class="kpi-grid" data-kpi-grid></div>
+    </section>
+
+    <section class="panel">
+      <h2>Recent Events</h2>
+      <ul class="events" data-event-list></ul>
+    </section>
+  </main>
+
+  <script src="assets/js/vendor/microdom.js"></script>
+  <script src="assets/js/common/nav.js"></script>
+  <script src="assets/js/pages/dashboard.js"></script>
+</body>
+</html>

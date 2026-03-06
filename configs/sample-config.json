@@ -1,0 +1,8 @@
+{
+  "repoLabel": "orbitforge",
+  "defaultBranch": "main",
+  "automation": {
+    "enforceSummaryVerification": true,
+    "allowDirectPush": false
+  }
+}

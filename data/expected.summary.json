@@ -1,0 +1,29 @@
+{
+  "totalTasks": 4,
+  "totalPoints": 18,
+  "byStatus": {
+    "done": 1,
+    "in_progress": 1,
+    "todo": 2
+  },
+  "byOwner": {
+    "alice": {
+      "tasks": 2,
+      "points": 8
+    },
+    "bob": {
+      "tasks": 1,
+      "points": 8
+    },
+    "carol": {
+      "tasks": 1,
+      "points": 2
+    }
+  },
+  "topTaskByPoints": {
+    "id": "T-101",
+    "title": "Implement API contract",
+    "points": 8,
+    "owner": "bob"
+  }
+}

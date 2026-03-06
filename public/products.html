@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbitforge | Products</title>
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="products">
+  <header class="site-header" data-nav-root></header>
+
+  <main class="container">
+    <section class="panel">
+      <h1>Product Catalog</h1>
+      <p>Rendered from JSON fixture data.</p>
+      <label for="filter-input">Filter by name</label>
+      <input id="filter-input" data-product-filter type="text" placeholder="Type to filter products" />
+      <div class="list" data-product-list></div>
+    </section>
+  </main>
+
+  <script src="assets/js/vendor/microdom.js"></script>
+  <script src="assets/js/common/nav.js"></script>
+  <script src="assets/js/pages/products.js"></script>
+</body>
+</html>

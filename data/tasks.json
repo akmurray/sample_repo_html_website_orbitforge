@@ -1,0 +1,30 @@
+[
+  {
+    "id": "T-100",
+    "title": "Bootstrap workspace",
+    "status": "done",
+    "points": 3,
+    "owner": "alice"
+  },
+  {
+    "id": "T-101",
+    "title": "Implement API contract",
+    "status": "in_progress",
+    "points": 8,
+    "owner": "bob"
+  },
+  {
+    "id": "T-102",
+    "title": "Write smoke tests",
+    "status": "todo",
+    "points": 5,
+    "owner": "alice"
+  },
+  {
+    "id": "T-103",
+    "title": "Document deployment",
+    "status": "todo",
+    "points": 2,
+    "owner": "carol"
+  }
+]

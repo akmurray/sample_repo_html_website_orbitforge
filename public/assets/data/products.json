@@ -1,0 +1,6 @@
+[
+  { "id": "P-001", "name": "Orbitforge Core", "plan": "Starter", "price": 29 },
+  { "id": "P-002", "name": "Orbitforge Flow", "plan": "Growth", "price": 79 },
+  { "id": "P-003", "name": "Orbitforge Signal", "plan": "Enterprise", "price": 149 },
+  { "id": "P-004", "name": "Orbitforge Beam", "plan": "Starter", "price": 39 }
+]

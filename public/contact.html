@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbitforge | Contact</title>
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="contact">
+  <header class="site-header" data-nav-root></header>
+
+  <main class="container">
+    <section class="panel">
+      <h1>Contact</h1>
+      <p>Simple form for pipeline edit/validation tasks.</p>
+      <label for="contact-name">Name</label>
+      <input id="contact-name" data-contact-name type="text" placeholder="Your name" />
+      <label for="contact-msg">Message</label>
+      <input id="contact-msg" data-contact-msg type="text" placeholder="Message" />
+      <button class="btn" data-contact-submit type="button">Submit</button>
+      <p data-contact-result></p>
+    </section>
+  </main>
+
+  <script src="assets/js/vendor/microdom.js"></script>
+  <script src="assets/js/common/nav.js"></script>
+  <script src="assets/js/pages/contact.js"></script>
+</body>
+</html>
